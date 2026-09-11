@@ -11,11 +11,11 @@
 
 ## 0. Паспорт проекта
 
-**ФИО:** [УКАЖИТЕ ФИО]
+**ФИО:** [Галдеев Лев Сергеевич]
 
-**GitHub-login:** [УКАЖИТЕ LOGIN]
+**GitHub-login:** [Leo-TOP]
 
-**Ссылка на GitHub Pages:** [ВСТАВЬТЕ ССЫЛКУ]
+**Ссылка на GitHub Pages:** [https://github.com/Leo-TOP/Leo-TOP/settings/pages]
 
 **Ссылка на основной pull request:** [ВСТАВЬТЕ ССЫЛКУ]
 
