@@ -17,7 +17,7 @@
 
 **Ссылка на GitHub Pages:** [https://github.com/Leo-TOP/Leo-TOP/settings/pages]
 
-**Ссылка на основной pull request:** [ВСТАВЬТЕ ССЫЛКУ]
+**Ссылка на основной pull request:** [https://github.com/Leo-TOP/Leo-TOP/pull/1]
 
 ---
 
