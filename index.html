@@ -35,7 +35,7 @@
           <h1 id="hero-title">Галдеев Лев Сергеевич</h1>
           <p class="hero-text">
             Пишу код на Java не просто «чтобы работало», а чтобы его можно было поддерживать.
-            Разбираюсь в незнакомых технологиях, проверяю гипотезы тестами, задаю уточняющие вопросы.
+            Стараюсь разбираться в незнакомых технологиях, проверяю гипотезы тестами.
           </p>
 
           <div class="tag-list" aria-label="Ключевые качества">
@@ -69,56 +69,7 @@
       </section>
 
       <!-- Секции ниже можно менять местами целиком. -->
-      <section id="experience" class="block content-section" aria-labelledby="experience-title">
-        <div class="section-heading">
-          <p class="section-number">01</p>
-          <div>
-            <p class="eyebrow">Практика</p>
-            <h2 id="experience-title">Опыт работы</h2>
-          </div>
-        </div>
-
-        <div class="item-list">
-          <!-- Скопируйте article целиком, чтобы добавить ещё одно место работы. -->
-          <article class="item-card experience-card">
-            <div class="item-meta">
-              <p class="item-period">Июнь 2025 — август 2025</p>
-              <p class="item-place">ООО «Пример» · Москва</p>
-            </div>
-            <div class="item-content">
-              <h3>Стажёр frontend-разработчик</h3>
-              <p>
-                Участвовал в разработке внутреннего сервиса и работал
-                вместе с дизайнером и backend-разработчиком.
-              </p>
-              <ul>
-                <li>Собрал адаптивные интерфейсные компоненты.</li>
-                <li>Исправил ошибки в формах и состояниях загрузки.</li>
-                <li>Подготовил документацию по запуску проекта.</li>
-              </ul>
-            </div>
-          </article>
-
-          <article class="item-card experience-card">
-            <div class="item-meta">
-              <p class="item-period">Сентябрь 2024 — май 2025</p>
-              <p class="item-place">Учебная лаборатория · НИУ ВШЭ</p>
-            </div>
-            <div class="item-content">
-              <h3>Разработчик учебного проекта</h3>
-              <p>
-                Проектировал интерфейс, распределял задачи в команде и
-                представлял результат на итоговой защите.
-              </p>
-              <ul>
-                <li>Описал пользовательские сценарии и требования.</li>
-                <li>Настроил совместную работу через GitHub.</li>
-              </ul>
-            </div>
-          </article>
-        </div>
-      </section>
-
+      
       <section id="projects" class="block content-section" aria-labelledby="projects-title">
         <div class="section-heading">
           <p class="section-number">02</p>
@@ -130,45 +81,29 @@
 
         <div class="card-grid">
           <!-- Скопируйте article целиком, чтобы добавить ещё один проект. -->
-          <article class="item-card project-card">
-            <div class="project-topline">
-              <p class="item-period">2025</p>
-              <a href="#" aria-label="Открыть проект Планировщик задач">Демо ↗</a>
-            </div>
-            <h3>Планировщик задач</h3>
-            <p>
-              Небольшое приложение для создания, фильтрации и сохранения
-              повседневных задач.
-            </p>
-            <p class="project-result">
-              <strong>Результат:</strong> реализовал работу с состоянием и
-              сохранение данных между сессиями.
-            </p>
-            <div class="tag-list tag-list-small">
-              <span class="tag">HTML</span>
-              <span class="tag">CSS</span>
-              <span class="tag">JavaScript</span>
-            </div>
-          </article>
 
           <article class="item-card project-card">
             <div class="project-topline">
-              <p class="item-period">2024</p>
-              <a href="#" aria-label="Открыть проект Афиша мероприятий">GitHub ↗</a>
+              <p class="item-period">2026</p>
+              <a href="https://github.com/Leo-TOP/WordWizard" aria-label="Открыть проект WordWizard">GitHub ↗</a>
             </div>
-            <h3>Афиша мероприятий</h3>
+            <h3>WordWizard</h3>
             <p>
-              Адаптивный каталог городских событий с поиском и фильтрами по
-              категориям.
+              Сервис-словарь: слова загружаются из внешнего источника, 
+              хранятся в PostgreSQL, ищутся векторным поиском по эмбеддингам, 
+              а тематика каждого слова определяется через LLM
             </p>
             <p class="project-result">
-              <strong>Результат:</strong> спроектировал карточки, состояния
-              пустой выдачи и мобильную навигацию.
+              <strong>Результат:</strong> спроектировал схему данных, интеграцию с внешним источником, векторный поиск на pgvector, работу с Gemini API для разметки тематик, упаковку в Docker.
             </p>
             <div class="tag-list tag-list-small">
-              <span class="tag">Figma</span>
-              <span class="tag">БЭМ</span>
-              <span class="tag">GitHub</span>
+              <span class="tag">Java</span>
+              <span class="tag">SpringBoot</span>
+              <span class="tag">Docker</span>
+              <span class="tag">Test Containers</span>
+              <span class="tag">Gemini API</span>
+              <span class="tag">PGvector</span>
+              <span class="tag">PostgreSQL</span>
             </div>
           </article>
         </div>
